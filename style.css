@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/* background: #00D4FF; */
+background: linear-gradient(294deg, rgba(0, 212, 255, 1) 0%, rgba(9, 9, 121, 1) 20%, rgba(0, 0, 0, 0.97) 40%, rgba(0, 0, 0, 1) 91%, rgba(0, 0, 0, 1) 94%, rgba(0, 0, 0, 1) 97%);
+    /* background-color: rgba(0, 0, 0, 0.68); */
+}
+
+.calc{
+    /* /* height: 50vh;  */
+    border: 1px solid rgb(31, 9, 121) ;
+    padding: 18px ;
+    border-radius: 30px;
+    box-shadow: 2px 4 px 16px #fff;
+}
+
+input{
+    color:#fff;
+    width: 200px;
+    padding: 12px;
+    /* margin: 10px; */
+    border: none;
+background: transparent;
+text-align: right;
+font-size: 30px;
+cursor: pointer;
+}
+
+
+button{
+        border: none;
+color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 4px;
+    background: transparent;
+        box-shadow: -8px -8px 15px rgba(230, 230, 230, 0.1);
+cursor: pointer;
+
+
+}
+
+.head{
+    /* color: rgba(37, 121, 9, 0.936); */
+    color: chocolate;
+}
+
+.equal{
+background-color: chocolate;
+}
